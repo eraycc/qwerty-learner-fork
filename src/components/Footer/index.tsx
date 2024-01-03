@@ -42,7 +42,12 @@ const Footer: React.FC = () => {
   return (
     
     <>
-      
+      <footer className="mb-1 mt-4 flex w-full items-center justify-center gap-2.5 text-sm ease-in">
+      <span>忆光Word基于开源</span>
+      <a href="https://github.com/Kaiyiwing/qwerty-learner" target="_blank" rel="noreferrer">Qwerty-Learner</a>
+      <span>二次开发 博客：</span>
+      <a href="https://blog.eray.cc/" target="_blank" rel="noreferrer">忆光博客</a>
+      </footer>
     </>
   )
 }
