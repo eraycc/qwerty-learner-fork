@@ -40,6 +40,7 @@ const Footer: React.FC = () => {
   )
 
   return (
+    /＊
     <>
       <InfoPanel
         openState={infoPanelState.donate}
@@ -240,6 +241,7 @@ const Footer: React.FC = () => {
         </span>
       </footer>
     </>
+  */
   )
 }
 
