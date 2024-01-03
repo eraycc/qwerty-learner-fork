@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
   return (
     
     <>
-      /＊
+      {/＊
       <InfoPanel
         openState={infoPanelState.donate}
         title="Buy us a coffee"
@@ -241,7 +241,7 @@ const Footer: React.FC = () => {
           Build <span className="select-all">{LATEST_COMMIT_HASH}</span>
         </span>
       </footer>
-      ＊/
+      ＊/}
     </>
   )
 }
